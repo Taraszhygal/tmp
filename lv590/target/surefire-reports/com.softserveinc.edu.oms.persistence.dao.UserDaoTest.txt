@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: com.softserveinc.edu.oms.persistence.dao.UserDaoTest
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 1.197 s <<< FAILURE! - in com.softserveinc.edu.oms.persistence.dao.UserDaoTest
+testFindByAllStartsWith(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.054 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByAllStartsWith(UserDaoTest.java:619)
+
+testFindByLastNameNotEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.044 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<3>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByLastNameNotEqual(UserDaoTest.java:490)
+
+testFindByLastNameStartsWith(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByLastNameStartsWith(UserDaoTest.java:511)
+
+testFindByAllNotEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.061 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<3>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByAllNotEqual(UserDaoTest.java:595)
+
+testFindByLastNameEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByLastNameEqual(UserDaoTest.java:469)
+
+testFindByFirstNameStartsWith(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.041 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByFirstNameStartsWith(UserDaoTest.java:406)
+
+testFindByFirstNameEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByFirstNameEqual(UserDaoTest.java:364)
+
+testFindByRoleNameStartsWith(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByRoleNameStartsWith(UserDaoTest.java:196)
+
+testCountUserBySearchValue(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.049 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testCountUserBySearchValue(UserDaoTest.java:701)
+
+testFindByFirstNameNotEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<3>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByFirstNameNotEqual(UserDaoTest.java:385)
+
+testFindByAllEqual(com.softserveinc.edu.oms.persistence.dao.UserDaoTest)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.softserveinc.edu.oms.persistence.dao.UserDaoTest.testFindByAllEqual(UserDaoTest.java:574)
+

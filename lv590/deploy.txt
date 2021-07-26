@@ -1,0 +1,29 @@
+git clone https://github.com/softservedata/lv590.git
+
+# checkout to the oms2 branch
+git checkout oms2
+
+mysql -h 192.168.153.134 -u devops --password="DevOps_553"
+
+create database oms2 character set utf8 collate utf8_bin;
+
+update hibernate.cfg.xml  from main and test branch
+JDBC: 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+Dialect: 	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+Connection str: <property name="hibernate.connection.url">jdbc:mysql://192.168.153.134:3306/oms2</property>
+user:		<property name="hibernate.connection.username">devops</property>
+password:	<property name="hibernate.connection.password">DevOps_553</property>
+
+regime:		<property name="hibernate.hbm2ddl.auto">update</property>
+create, update,...
+
+
+
+mvn clean package
+
+Run tomcat
+copy  OMS.war to \Tomcat 9.0\webapps\
+run Mysql1.bat
+
+
+
